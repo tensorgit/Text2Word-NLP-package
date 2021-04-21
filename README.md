@@ -5,6 +5,11 @@
 **Class methods:** 
 ``` 
 1. review_to_words(self, review): to clean a unit text using 'nltk'
+        - removes html tags
+        - converts all to lowercase
+        - applies word stemming
+        - splits text string into individual words
+        - removes stopwords (words that do not affect sentiment of the text)
 2. preprocess_data(self, data_train, data_test): to convert individual training and test text data into a list of cleaned
         words using the 'review_to_words', collectively stored in a list
 3. build_dict(self, data_train, vocab_size = 5000): to Construct and return a dictionary mapping each of the most frequently appearing words to a unique integer
