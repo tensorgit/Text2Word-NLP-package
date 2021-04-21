@@ -6,6 +6,7 @@
 pip install Text2Word
 
 **To test the code:**
+```
 from Text2Word import performtext2word
 
 preproc = performtext2word()
@@ -24,5 +25,5 @@ words_train, words_test = preproc.preprocess_data(data_train, data_test)
 
 print(words_train)
 print(words_test)
-
+```
 
