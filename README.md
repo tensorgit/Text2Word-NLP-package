@@ -1,6 +1,15 @@
 # Text2Word-NLP-package
 ## Text pre-processing methods for NLP applications available on https://pypi.org/
 
+**Main Class:** ```class performtext2word ```
+**Class methods:** 
+``` 
+1. review_to_words(self, review): to clean a unit text using 'nltk'
+2. preprocess_data(self, data_train, data_test): to convert individual training and test text data into a list of cleaned
+        words using the 'review_to_words', collectively stored in a list
+3. build_dict(self, data_train, vocab_size = 5000): to Construct and return a dictionary mapping each of the most frequently appearing words to a unique integer
+4. extract_BoW_features(self, data_train, data_test, vocabulary_size=5000): to Extract Bag-of-Words for a given set of documents, already preprocessed into words
+```
 
 **To install**
 pip install Text2Word
