@@ -1,0 +1,1 @@
+from .text2word import performtext2word
