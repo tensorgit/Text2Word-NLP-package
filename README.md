@@ -1,7 +1,7 @@
 # Text2Word-NLP-package
 ## Text pre-processing methods for NLP applications available on https://pypi.org/
 
-**Main Class:** ```class performtext2word ```
+**Main Class:** ```performtext2word ```
 **Class methods:** 
 ``` 
 1. review_to_words(self, review): to clean a unit text using 'nltk'
