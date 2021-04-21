@@ -12,7 +12,7 @@
 ```
 
 **To install**
-pip install Text2Word
+```pip install Text2Word ```
 
 **To test the code:**
 ```
